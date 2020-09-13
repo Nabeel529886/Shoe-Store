@@ -1,0 +1,53 @@
+.nike-content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+}
+
+.nike-content-text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 240px
+}
+
+.nike-content img{
+    position: relative;
+    top: 90px;
+    left: 10px;
+    opacity: 0.85;
+}
+
+.nike-content h1{
+    font-size: 8rem;
+    font-style: italic;
+    letter-spacing: -6px;
+}
+
+.nike-content p{
+    font-size: 2rem;
+    letter-spacing: 5px;
+    font-style: italic;
+    color: #666;
+}
+.nike-content .shop-btn{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.carousel{
+    display: flex;
+    position: relative;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    top: 100px;
+}
+
+.carousel .slides{
+    box-shadow: 0px 20px 15px #444;
+}

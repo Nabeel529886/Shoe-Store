@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.nav-container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-family: "Lato";
+    margin-top: 20px;
+}
+
+.nav-list-group{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-item .list-anchor{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: black;
+    margin: 0 50px;
+
+}
+
+.list-item .list-anchor:hover{
+    text-decoration: underline;
+}
