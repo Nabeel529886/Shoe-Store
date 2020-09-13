@@ -15,16 +15,16 @@ function App() {
           <div>
             <Navigate />
             <Switch>
-              <Route path="/cart">
+              <Route exact path="/cart">
                 <Cart />
               </Route>
-              <Route path="/store">
+              <Route exact path="/store">
                 <Store />
               </Route>
-              <Route path="/checkout">
+              <Route exact path="checkout">
                 <Checkout />
               </Route>
-              <Route path="/">
+              <Route exact path="/">
                 <Home />
               </Route>
             </Switch>

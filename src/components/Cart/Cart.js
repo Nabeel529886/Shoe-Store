@@ -53,16 +53,12 @@ function Cart() {
         margin: "30px 0px",
     }
 
-
-
     return (
         <div className="container">
             <div style={cartHeading}>
                 <h1>Cart</h1>
-                <div style={underline}></div>
-                
+                <div style={underline}></div>            
             </div>
-            
             <EmptyCart />
             <Table striped bordered hover>
                 <thead>
