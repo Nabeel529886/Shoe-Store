@@ -18,7 +18,7 @@ const EmptyCart = () => {
     const { cartItems } = useContext(GlobalContext)
     if (cartItems.length === 0){
         return null
-    }else{
+    } else{
         return (
             <div style={emptyCartStyle}>
                 <a href="" onClick={emptyCart}>Empty Cart</a>
